@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Ubuntu:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Createx</title>
+</head>
+
+<body>
+
+    <section class="header header--main">
+        <div class="container header__container">
+            <a class="logo" href="#">
+                <img src="images/logo.svg" alt="Createx Logo">
+            </a>
+            <nav class="nav header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="#">About Us</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Services</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Work</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">News</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="header-contacts">
+                <a href="tel:4055550128" class="header-contacts__link contacts-link contacts-link--call">
+                    <span class="contacts-link__caption">Call us</span>
+                    <span class="contacts-link__value">(405) 555-0128</span>
+                </a>
+                <a href="mailto:hello@createx.com" class="header-contacts__link contacts-link contacts-link--mail">
+                    <span class="contacts-link__caption">Talk to us</span>
+                    <span class="contacts-link__value">hello@createx.com</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="main-title">Create<span>x</span> Construction</h1>
+                <p class="main-description">
+                    Cras ultrices leo vitae non viverra. Fringilla nisi quisque consequat,
+                    dignissim vitae proin ipsum sed. Pellentesque nec turpis purus eget
+                    pellentesque integer ipsum elementum felis.
+                </p>
+                <div class="hero__btns">
+                    <button class="btn-reset btn--stroke">Learn more about us</button>
+                    <button class="btn-reset btn--fill">Submit request</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2 class="about__title title">
+                We are Createx Construction Bureau
+            </h2>
+            <p class="about__description description">We are rightfully considered to be the best construction company
+                in the USA.</p>
+            <div class="about__video-block">
+                <button class="btn-reset about__video-btn--play" aria-label="Play video">
+                    <img src="images/play.svg" alt="Play icon">
+                </button>
+                <button class="btn-reset about__video-btn--muted" aria-label="Mute video">
+                    <img src="images/mute.svg" alt="Mute icon">
+                </button>
+                <video class="about__video" src="video/about-video.mp4" muted loop preload="metadata"></video>
+            </div>
+        </div>
+    </section>
+
+    <section class="mission">
+        <div class="container">
+            <h2 class="mission__title title">
+                Our core values
+            </h2>
+            <p class="mission__description description">Our mission is to set the highest standards for construction
+                sphere.</p>
+            <ul class="mission__list">
+                <li class="mission__item mission__item--quality">
+                    <h3 class="mission__subtitle">Qualiti</h3>
+                    <p class="mission__description">Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam
+                        velit nostrud aliquip sunt.</p>
+                </li>
+                <li class="mission__item mission__item--safety">
+                    <h3 class="mission__subtitle">Safety</h3>
+                    <p class="mission__description">Anim reprehenderit sint voluptate exercitation adipisicing laborum
+                        adipisicing. Minim empor est ea.</p>
+                </li>
+                <li class="mission__item mission__item--comfort">
+                    <h3 class="mission__subtitle">Comfort</h3>
+                    <p class="mission__description">Sit veniam aute dolore adipisicing nulla sit culpa. Minim mollit
+                        voluptate ullamco proident ea ad.</p>
+                </li>
+            </ul>
+            <form action="#" class="mission__form">
+                <h2 class="mission__form-title">Want to know more? Ask us a question:</h2>
+                <div class="mission__form-content">
+                    <lable class="mission__form-field">
+                        <span class="form-field--caption">
+                            Name
+                        </span>
+                        <input class="form__input" type="text" placeholder="Your name" />
+                    </lable>
+                    <lable class="mission__form-field">
+                        <span class="form-field--caption">
+                            Phone
+                        </span>
+                        <input class="form__input" type="tel" placeholder="Your phone" />
+                    </lable>
+                    <lable class="mission__form-field">
+                        <span class="form-field--caption">
+                            Message
+                        </span>
+                        <input class="form__input form__input-big" type="text" placeholder="Your message" />
+                    </lable>
+                    <button class="btn-reset btn--fill btn-form" type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2 class="services__title title">
+                Our services
+            </h2>
+            <p class="services__description description">Createx Construction Bureau is a construction giant with a full
+                range of construction services.</p>
+        </div>
+    </section>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
