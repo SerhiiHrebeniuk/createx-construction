@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -136,11 +137,143 @@
                 Our services
             </h2>
             <p class="services__description description">Createx Construction Bureau is a construction giant with a full
-                range of construction services.</p>
+                range of construction services.
+            </p>
+            <ul class="services__list">
+                <li class="services__item">
+                    <a class="services-item" href="#">
+                        <div class="services-item-content">
+                            <img class="services-item-icon" src="images/services-construction.svg" alt="" />
+                        <h3 class="services-item-title">
+                            Construction
+                        </h3>
+                        </div>
+                    </a>
+                </li>
+                <li class="services__item">
+                    <a class="services-item" href="#">
+                        <div class="services-item-content">
+                            <img class="services-item-icon" src="images/services-pd.svg" alt="" />
+                        <h3 class="services-item-title">
+                            Project Development
+                        </h3>
+                        </div>
+                    </a>
+                </li>
+                <li class="services__item">
+                    <a class="services-item" href="#">
+                        <div class="services-item-content">
+                            <img class="services-item-icon" src="images/services-id.svg" alt="" />
+                        <h3 class="services-item-title">
+                            Interior Design
+                        </h3>
+                        </div>
+                    </a>
+                </li>
+                <li class="services__item">
+                    <a class="services-item" href="#">
+                        <div class="services-item-content">
+                            <img class="services-item-icon" src="images/services-repairs.svg" alt="" />
+                        <h3 class="services-item-title">
+                            Repairs
+                        </h3>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="services__learn">
+                <h4 class="servieces__learn-subtitle">Learn more about our services</h4>
+                <a class="btn-reset btn--fill servieces__learn-btn" href="#">View services</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio__section">
+        <div class="container">
+            <div class="portfolio__section-top">
+                <h2 class="portfolio__section-title title">Browse our selected projects and learn more about our work</h2>
+                <div class="slider-nav">
+                    <button class="reset-btn slider-nav__btn portfolio__section-prev slider__btn">
+                        <img src="images/left-arrow.svg" /> 
+                    </button>
+                    <button class="reset-btn slider-nav__btn portfolio__section-next slider__btn">
+                        <img src="images/right-arrow.svg" />
+                    </button>
+                </div>
+            </div>
+            <div class="swiper portfolio__section-items">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <a href="#" class="portfolio-item">
+                          <img class="portfolio__item-image"  src="images/portfolio-1.jpg"  alt="Portfolio cover" />
+                          <div class="portfolio-item__content">
+                            <h3 class="portfolio__item-title">Red Finger Building</h3>
+                            <span class="porfolio__item-description">Business Centers</span>
+                            <div class="btn-reset portfolio__item-btn">View Project</div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="portfolio-item">
+                        <img class="portfolio__item-image"  src="images/portfolio-1.jpg"  alt="Portfolio cover" />
+                        <div class="portfolio-item__content">
+                          <h3 class="portfolio__item-title">Red Finger Building</h3>
+                          <span class="porfolio__item-description">Business Centers</span>
+                          <div class="btn-reset portfolio__item-btn">View Project</div>
+                        </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="portfolio-item">
+                        <img class="portfolio__item-image"  src="images/portfolio-1.jpg"  alt="Portfolio cover" />
+                        <div class="portfolio-item__content">
+                          <h3 class="portfolio__item-title">Red Finger Building</h3>
+                          <span class="porfolio__item-description">Business Centers</span>
+                          <div class="btn-reset portfolio__item-btn">View Project</div>
+                        </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="portfolio-item">
+                        <img class="portfolio__item-image"  src="images/portfolio-1.jpg"  alt="Portfolio cover" />
+                        <div class="portfolio-item__content">
+                          <h3 class="portfolio__item-title">Red Finger Building</h3>
+                          <span class="porfolio__item-description">Business Centers</span>
+                          <div class="btn-reset portfolio__item-btn">View Project</div>
+                        </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="portfolio-item">
+                        <img class="portfolio__item-image"  src="images/portfolio-1.jpg"  alt="Portfolio cover" />
+                        <div class="portfolio-item__content">
+                          <h3 class="portfolio__item-title">Red Finger Building</h3>
+                          <span class="porfolio__item-description">Business Centers</span>
+                          <div class="btn-reset portfolio__item-btn">View Project</div>
+                        </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="portfolio-item">
+                        <img class="portfolio__item-image"  src="images/portfolio-1.jpg"  alt="Portfolio cover" />
+                        <div class="portfolio-item__content">
+                          <h3 class="portfolio__item-title">Red Finger Building</h3>
+                          <span class="porfolio__item-description">Business Centers</span>
+                          <div class="btn-reset portfolio__item-btn">View Project</div>
+                        </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio__learn">
+                <h4 class="portfolio__learn-subtitle">Explore all our works</h4>
+                <a class="btn-reset btn--fill portfolio__learn-btn" href="#">View portfolio</a>
+            </div>
         </div>
     </section>
 
 
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
