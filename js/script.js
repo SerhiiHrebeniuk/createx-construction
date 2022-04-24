@@ -49,4 +49,15 @@ const portfolioSlider = new Swiper(portSlider, {
     activeSlide.classList.add('slider-visible');
     nextActiveSlide.classList.add('slider-visible');
     nextNextActiveSlide.classList.add('slider-visible');
-  })
+  });
+
+
+  const estimateSlider = new Swiper('.estimate__section-items', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    navigation: {
+      nextEl: '.estimate__section-prev',
+      prevEl: '.estimate__section-next',
+    }
+  });
